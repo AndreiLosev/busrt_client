@@ -1,5 +1,5 @@
-This is a client for the bus https://github.com/alttch/busrt
-pub dev: https://pub.dev/packages/busrt_client
+* This is a client for the bus https://github.com/alttch/busrt
+* pub dev: https://pub.dev/packages/busrt_client
 <?code-excerpt "readme_excerpts.dart (Write)"?>
 ```dart
 import 'dart:isolate';
