@@ -1,4 +1,4 @@
-This is a client for the broker https://github.com/alttch/busrt
+This is a client for the bus https://github.com/alttch/busrt
 
 <?code-excerpt "readme_excerpts.dart (Write)"?>
 ```dart
