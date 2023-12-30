@@ -1,7 +1,7 @@
 name: busrt_client
-description: A sample command-line application.
+description: This is a client for the bus https://github.com/alttch/busrt.
 version: 0.1.0
-repository: https://github.com/AndreiLosev/busrt/tree/impl-dart-client/bindings/dart/busrt
+repository: https://github.com/AndreiLosev/busrt_client
 
 environment:
   sdk: ^3.2.2
