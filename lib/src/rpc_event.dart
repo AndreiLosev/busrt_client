@@ -1,7 +1,8 @@
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:busrt/busrt.dart';
+import 'package:busrt_client/src/frame.dart';
+import 'package:busrt_client/src/rpc_event_kind.dart';
 
 class RpcEvent {
   final RpcEventKind _kind;

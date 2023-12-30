@@ -1,4 +1,4 @@
-import 'package:busrt/src/consts.dart';
+import 'package:busrt_client/src/consts.dart';
 
 sealed class BusError implements Exception {
   final String? message;

@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:busrt/src/frame_kind.dart';
-import 'package:busrt/src/qos.dart';
-import 'package:busrt/src/rpc_event_kind.dart';
+import 'package:busrt_client/src/frame_kind.dart';
+import 'package:busrt_client/src/qos.dart';
+import 'package:busrt_client/src/rpc_event_kind.dart';
 
 class Frame {
   final FrameKind _kind;

@@ -3,16 +3,16 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:typed_data';
 
-import 'package:busrt/src/consts.dart';
-import 'package:busrt/src/bus_error.dart';
-import 'package:busrt/src/frame.dart';
-import 'package:busrt/src/frame_kind.dart';
-import 'package:busrt/src/future_soket.dart';
-import 'package:busrt/src/op_result.dart';
-import 'package:busrt/src/qos.dart';
-import 'package:busrt/src/rpc_event.dart';
-import 'package:busrt/src/rpc_event_kind.dart';
-import 'package:busrt/src/rpc_op_result.dart';
+import 'package:busrt_client/src/consts.dart';
+import 'package:busrt_client/src/bus_error.dart';
+import 'package:busrt_client/src/frame.dart';
+import 'package:busrt_client/src/frame_kind.dart';
+import 'package:busrt_client/src/future_soket.dart';
+import 'package:busrt_client/src/op_result.dart';
+import 'package:busrt_client/src/qos.dart';
+import 'package:busrt_client/src/rpc_event.dart';
+import 'package:busrt_client/src/rpc_event_kind.dart';
+import 'package:busrt_client/src/rpc_op_result.dart';
 import 'package:mutex/mutex.dart';
 
 part 'rpc.dart';

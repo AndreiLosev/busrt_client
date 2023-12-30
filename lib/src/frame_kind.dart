@@ -1,5 +1,5 @@
-import 'package:busrt/src/consts.dart';
-import 'package:busrt/src/bus_error.dart';
+import 'package:busrt_client/src/consts.dart';
+import 'package:busrt_client/src/bus_error.dart';
 
 enum FrameKind {
   message(opMessage),

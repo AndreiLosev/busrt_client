@@ -1,4 +1,6 @@
-import 'package:busrt/busrt.dart';
+
+import 'package:busrt_client/src/bus_error.dart';
+import 'package:busrt_client/src/frame.dart';
 import 'package:mutex/mutex.dart';
 
 class RpcOpResult {
