@@ -5,7 +5,7 @@ This is a client for the bus https://github.com/alttch/busrt
 import 'dart:isolate';
 import 'dart:typed_data';
 
-import 'package:busrt/busrt.dart';
+import 'package:busrt_client/busrt_client.dart';
 import 'package:msgpack_dart/msgpack_dart.dart';
 
 int myValue = 0;
