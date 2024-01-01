@@ -30,7 +30,6 @@ const errRpcInvalidMethodParams = -32602;
 const errRpcInternal = -32603;
 const rpcErrorCodeNotFound = -32001;
 
-
 const greetings = 0xEB;
 
 const defaultTimeout = Duration(seconds: 5);
