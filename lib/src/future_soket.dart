@@ -21,7 +21,7 @@ class FutureSoket {
       if (!isConnected()) {
         throw SocketException.closed();
       }
-      await Future.delayed(Duration.zero);
+      await Future.delayed(const Duration(milliseconds: 1));
     }
 
     final buf = Uint8List.fromList(_buffer.take(len).toList());
