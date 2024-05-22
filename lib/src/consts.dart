@@ -33,7 +33,7 @@ const rpcErrorCodeNotFound = -32001;
 const greetings = 0xEB;
 
 const defaultTimeout = Duration(seconds: 5);
-const defaultPingInterval = Duration(microseconds: 1);
+const defaultPingInterval = Duration(seconds: 1);
 const maxPayloadLen = 0xffffffff;
 
 const secondarySep = "%%";
