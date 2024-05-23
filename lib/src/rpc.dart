@@ -157,7 +157,7 @@ class Rpc {
 
     late final Frame replay;
     try {
-      final buffer = (await _onCall(e)) ?? Uint8List(1);
+      final buffer = (await _onCall(e)) ?? Uint8List(responseOk);
       final header =
           Uint8List.fromList([RpcEventKind.reply.value, ...callIdBuf]);
       replay = Frame.rpcReplay(
