@@ -7,12 +7,12 @@ import 'package:busrt_client/src/consts.dart';
 import 'package:busrt_client/src/bus_error.dart';
 import 'package:busrt_client/src/frame.dart';
 import 'package:busrt_client/src/frame_kind.dart';
-import 'package:busrt_client/src/future_soket.dart';
 import 'package:busrt_client/src/op_result.dart';
 import 'package:busrt_client/src/qos.dart';
 import 'package:busrt_client/src/rpc_event.dart';
 import 'package:busrt_client/src/rpc_event_kind.dart';
 import 'package:busrt_client/src/rpc_op_result.dart';
+import 'package:future_soket/future_soket.dart';
 import 'package:mutex/mutex.dart';
 
 part 'rpc.dart';
