@@ -1,6 +1,6 @@
 name: busrt_client
 description: This is a client for the bus https://github.com/alttch/busrt.
-version: 0.3.0
+version: 0.4.0
 repository: https://github.com/AndreiLosev/busrt_client
 
 environment:

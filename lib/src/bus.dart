@@ -192,7 +192,7 @@ class Bus {
     return _frameId;
   }
 
-  (InternetAddress, int) _hostAndPortFromPath(String path) {
+  (Object, int) _hostAndPortFromPath(String path) {
     final conditional = path.endsWith('.sock') ||
         path.endsWith('.socket') ||
         path.endsWith('.ipc') ||
@@ -205,9 +205,7 @@ class Bus {
     }
 
     final [addr, portStr] = path.split(":");
-    final host = InternetAddress(addr, type: InternetAddressType.IPv4);
-    final port = int.parse(portStr);
-    return (host, port);
+    return (addr, int.parse(portStr));
   }
 
   Future<void> _connectionHandler() async {
